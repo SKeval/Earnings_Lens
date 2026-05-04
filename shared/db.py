@@ -1,5 +1,5 @@
 import asyncpg
-from config import settings
+from config.settings import settings
 
 
 async def get_connection():
